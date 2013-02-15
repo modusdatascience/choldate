@@ -10,3 +10,7 @@ build
 .project
 
 .pydevproject
+
+choldate/__init__.pyc
+
+installTest.sh
