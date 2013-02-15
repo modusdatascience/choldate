@@ -4,3 +4,9 @@ choldate/build
 choldate/choldate.so
 choldate/choldate.c
 build
+
+.DS_Store
+
+.project
+
+.pydevproject
