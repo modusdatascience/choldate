@@ -7,9 +7,9 @@ from Cython.Build import cythonize
 setup(
     name='choldate',
     version='0.1.0',
-    py_modules=['choldate.test'],
+    packages=['choldate','choldate.test'],
     cmdclass = {'build_ext': build_ext},
-    ext_modules = cythonize([Extension("choldate", ["choldate/choldate.pyx"],include_dirs = [numpy.get_include()])
+    ext_modules = cythonize([Extension("choldate._choldate", ["choldate/_choldate.pyx"],include_dirs = [numpy.get_include()])
     ]), requires=['numpy']
 
 )
