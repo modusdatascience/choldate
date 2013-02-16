@@ -4,7 +4,6 @@ choldate
 Somewhat fast updating and downdating of Cholesky factors in Python
 
 ##installation
-________
 
 	1. Download or clone the github repository, e.g.
 	    >git clone git://github.com/jcrudy/choldate.git
@@ -16,7 +15,6 @@ ________
 	3. I am new to packaging Python modules.  If it doesn't work on your system, get in touch and I'll try to help you.
 
 ##usage
-________
 ```python
 from choldate import cholupdate, choldowndate
 import numpy
