@@ -3,7 +3,7 @@ choldate
 
 Somewhat fast updating and downdating of Cholesky factors in Python
 
-installation
+##installation
 ________
 
 	1. Download or clone the github repository, e.g.
@@ -15,7 +15,7 @@ ________
 	    
 	3. I am new to packaging Python modules.  If it doesn't work on your system, get in touch and I'll try to help you.
 
-usage
+##usage
 ________
 ```python
 from choldate import cholupdate, choldowndate
