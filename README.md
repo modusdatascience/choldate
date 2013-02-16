@@ -7,7 +7,7 @@ installation
 ________
 
 	1. Download or clone the github repository, e.g.
-	    >git clone https://github.com/jcrudy/choldate.git
+	    >git clone git://github.com/jcrudy/choldate.git
 	    
 	2. Run setup.py install
 	    >cd choldate
