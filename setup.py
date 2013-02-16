@@ -10,6 +10,6 @@ setup(
     packages=['choldate','choldate.test'],
     cmdclass = {'build_ext': build_ext},
     ext_modules = cythonize([Extension("choldate._choldate", ["choldate/_choldate.pyx"],include_dirs = [numpy.get_include()])
-    ]), requires=['numpy']
+    ]), requires=['numpy','cython']
 
 )
