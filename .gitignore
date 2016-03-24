@@ -1,9 +1,8 @@
-build
 choldate/build
-choldate/build
-choldate/choldate.so
 choldate/choldate.c
+choldate/*.so
 build
+*.egg-info/
 
 .DS_Store
 
