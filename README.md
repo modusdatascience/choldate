@@ -5,7 +5,7 @@ Somewhat fast updating and downdating of Cholesky factors in Python
 
 ##installation
 
-Install from GitHub: `pip install git+git://github.com/jcrudy/choldate.git`
+Install from GitHub: `pip install git+https://github.com/jcrudy/choldate.git`
 
 Or, clone the GitHub repository and install from source, e.g.,
 
